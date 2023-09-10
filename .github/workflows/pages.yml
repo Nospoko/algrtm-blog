@@ -16,10 +16,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-      - name: Use Node.js 16.x
+      - name: Use Node.js 18.x
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '18'
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
@@ -28,10 +28,13 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
+        working-directory: ./blog
         run: npm install
       - name: Build
+        working-directory: ./blog
         run: npm run build
       - name: Deploy
+        working-directory: ./blog
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
