@@ -10,9 +10,9 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: algrtm
+  title: Algorithms
   # Author name
-  author: algrtm team
+  author: team
   # Site URL
   url: https://pianoroll.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -32,7 +32,7 @@ defaults:
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#A31F34"
+  primary: "#1c394a"
   # Secondary color (beta)
   secondary: 
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -149,7 +149,7 @@ home_banner:
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  https://twitter.com/roszczt
-      email:  algrtm@algrtm.com
+      email:  tomasz@algrtm.com
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -164,8 +164,8 @@ navbar:
   auto_hide: false
   # Navbar background color
   color:
-    left: "#f78736" #left side 
-    right: "#367df7"  #right side
+    left: "#f9a01a" #left side 
+    right: "#1c394a"  #right side
     transparency: 35 #percent (10-99)
   # Navbar links
   links:
@@ -205,7 +205,7 @@ navbar:
 home:
   # Sidebar settings
   sidebar:
-    enable: true # Whether to enable sidebar
+    enable: false # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
     announcement: # Announcement text
@@ -333,7 +333,7 @@ footer:
   # Show website running time
   runtime: false # show website running time or not
   # Icon in footer, write fontawesome icon code here
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 4.5s; color: indigo"></i>'
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 4.5s; color: #1c394a"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2023/9/05 11:45:14
   # Footer message
