@@ -572,6 +572,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hexo-asset-link@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npmjs.org/hexo-asset-link/-/hexo-asset-link-2.2.2.tgz"
+  integrity sha512-wJDngeQXJic2CStUVIKqDdV16Fkh5pwliV8hEyLjeBfY7YoYIEeuDsY+n2VPRIXomaw4GnFG6jVVBne7lrHY1w==
+
 hexo-cli@^4.3.0:
   version "4.3.1"
   resolved "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.1.tgz"
@@ -740,7 +745,7 @@ hexo-util@^3.1.0:
     prismjs "^1.29.0"
     strip-indent "^3.0.0"
 
-hexo@^6.3.0:
+"hexo@^4.0.0 || ^5.0.0 || ^6.0.0", hexo@^6.3.0:
   version "6.3.0"
   resolved "https://registry.npmjs.org/hexo/-/hexo-6.3.0.tgz"
   integrity sha512-4Jq+rWd8sYvR1YdIQyndN/9WboQ/Mqm6eax8CjrjO+ePFm2oMVafSOx9WEyJ42wcLOHjfyMfnlQhnUuNmJIpPg==

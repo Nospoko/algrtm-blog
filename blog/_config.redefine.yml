@@ -10,22 +10,22 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: Algorithms
+  title: Algorithmic Productions
   # Author name
   author: team
   # Site URL
-  url: https://pianoroll.io
+  url: http://epr.solutions/
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/avatar.png
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -49,11 +49,11 @@ global:
       url:  # Font URL to CSS file
     # English fonts
     english: 
-      enable: false # Whether to enable custom chinese font
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: True
+      family: Roboto
+      url:  # https://fonts.googleapis.com/css2?family=Lato&display=swap  # Font URL to CSS file
   # Content max width
-  content_max_width: 1000px
+  content_max_width: 820px
   # Sidebar width
   sidebar_width: 210px
   # Effects on mouse hover
@@ -171,7 +171,7 @@ navbar:
   links:
     Home: 
       path: / 
-      icon: fa-regular fa-house # can be empty
+      icon: fa-regular fa-music # can be empty
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -238,7 +238,7 @@ articles:
   # Set the styles of the article
   style:
     font_size: 16px # Font size
-    line_height: 1.5 # Line height
+    line_height: 1.65 # Line height
     image_border_radius: 14px # image border radius
     image_alignment: center # image alignment. left, center
     image_caption: false # Whether to display image caption
