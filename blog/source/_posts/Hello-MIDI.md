@@ -2,6 +2,7 @@
 title: Hello MIDI
 date: 2023-09-11
 tags:
+author: tomek
 ---
 
 Welcome to our first blogpost about MIDI!
