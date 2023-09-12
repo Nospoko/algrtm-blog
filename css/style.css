@@ -164,7 +164,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -213,7 +213,7 @@
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -263,7 +263,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -312,7 +312,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -360,7 +360,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -408,7 +408,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -457,7 +457,7 @@
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -507,7 +507,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -556,7 +556,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -604,7 +604,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -779,7 +779,7 @@ body {
   font-family: Satoshi-Variable, Noto Sans SC, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
   font-weight: 450;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.65;
 }
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
@@ -790,14 +790,14 @@ body::-webkit-scrollbar {
   html,
   body {
     font-size: 15.36px;
-    line-height: 1.44;
+    line-height: 1.584;
   }
 }
 @media (max-width: 640px) {
   html,
   body {
     font-size: 14.4px;
-    line-height: 1.35;
+    line-height: 1.485;
   }
 }
 ::selection {
@@ -916,7 +916,7 @@ button {
   clear: both;
 }
 .markdown-body {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, sans-serif;
   font-size: 16px;
 }
 .markdown-body blockquote {
@@ -935,7 +935,7 @@ button {
   padding: 5px 5px 5px 10px;
 }
 .markdown-body p {
-  line-height: 1.5;
+  line-height: 1.65;
   color: var(--default-text-color);
   font-weight: 400;
   margin-bottom: 1rem;
@@ -1020,9 +1020,9 @@ button {
 .markdown-body .h4,
 .markdown-body .h5,
 .markdown-body .h6 {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, sans-serif;
   color: var(--second-text-color);
-  line-height: 1.5;
+  line-height: 1.65;
   margin-bottom: 1rem !important;
 }
 @media (max-width: 768px) {
@@ -1038,7 +1038,7 @@ button {
   .markdown-body .h4,
   .markdown-body .h5,
   .markdown-body .h6 {
-    line-height: 1.44;
+    line-height: 1.584;
   }
 }
 .markdown-body h1,
@@ -1108,7 +1108,7 @@ button {
 .markdown-body .h6 {
   font-size: 1.2rem;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.65;
   margin-top: 2rem;
 }
 @media (max-width: 768px) {
@@ -1214,7 +1214,7 @@ button {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1263,7 +1263,7 @@ button {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1313,7 +1313,7 @@ button {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1362,7 +1362,7 @@ button {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1410,7 +1410,7 @@ button {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1890,7 +1890,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1939,7 +1939,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1989,7 +1989,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2038,7 +2038,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2086,7 +2086,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2248,7 +2248,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2297,7 +2297,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2347,7 +2347,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2396,7 +2396,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2444,7 +2444,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2555,7 +2555,7 @@ pre .deletion {
   position: relative;
   box-sizing: border-box;
   width: 80%;
-  max-width: 1000px;
+  max-width: 820px;
   height: 100%;
   transition-property: color, background, box-shadow, border-color, max-width, width;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
@@ -2573,7 +2573,7 @@ pre .deletion {
   }
 }
 .page-container .main-content-container .main-content-body .main-content.has-toc {
-  max-width: 1200px !important;
+  max-width: 984px !important;
 }
 .page-container .main-content-container .main-content-body .main-content-footer {
   width: 100%;
@@ -2679,7 +2679,7 @@ html.is-animating .transition-fade {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2728,7 +2728,7 @@ html.is-animating .transition-fade {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2778,7 +2778,7 @@ html.is-animating .transition-fade {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2827,7 +2827,7 @@ html.is-animating .transition-fade {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2875,7 +2875,7 @@ html.is-animating .transition-fade {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3035,7 +3035,7 @@ html.is-animating .transition-fade {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
@@ -3235,7 +3235,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3284,7 +3284,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3334,7 +3334,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3383,7 +3383,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3431,7 +3431,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3462,7 +3462,7 @@ html.is-animating .swup-progress-icon {
   position: relative;
   height: 100%;
   width: 80%;
-  max-width: 1000px;
+  max-width: 820px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -3470,7 +3470,7 @@ html.is-animating .swup-progress-icon {
   z-index: 1005;
 }
 .navbar-container .navbar-content.has-home-banner {
-  max-width: 1200px;
+  max-width: 984px;
 }
 @media (max-width: 768px) {
   .navbar-container .navbar-content {
@@ -3901,7 +3901,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3950,7 +3950,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4000,7 +4000,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4049,7 +4049,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4097,7 +4097,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4232,7 +4232,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4281,7 +4281,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4331,7 +4331,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4380,7 +4380,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4428,7 +4428,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4633,7 +4633,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4682,7 +4682,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4732,7 +4732,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4781,7 +4781,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4829,7 +4829,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5063,7 +5063,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5112,7 +5112,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5162,7 +5162,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5211,7 +5211,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5259,7 +5259,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5616,7 +5616,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5665,7 +5665,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5715,7 +5715,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5764,7 +5764,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5812,7 +5812,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5887,7 +5887,7 @@ html.is-animating .swup-progress-icon {
   }
 }
 .article-copyright-info-container {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -5951,7 +5951,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6000,7 +6000,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6050,7 +6050,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6099,7 +6099,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6147,7 +6147,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6245,7 +6245,7 @@ html.is-animating .swup-progress-icon {
   font-size: 1.4rem;
   line-height: 1.5;
   color: var(--second-text-color);
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   margin: 0;
 }
 @media (max-width: 768px) {
@@ -6378,7 +6378,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6427,7 +6427,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6477,7 +6477,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6526,7 +6526,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6574,7 +6574,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6586,6 +6586,7 @@ html.is-animating .swup-progress-icon {
 }
 .post-page-container {
   display: flex;
+  text-align: justify;
   position: relative;
   justify-content: space-between;
   box-sizing: border-box;
@@ -6710,7 +6711,7 @@ html.is-animating .swup-progress-icon {
   margin: 0px 0 30px 0;
   line-height: 1.4;
   color: var(--second-text-color);
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
 }
 .post-page-container .article-content-container .article-title .article-title-cover {
   display: flex;
@@ -6721,7 +6722,7 @@ html.is-animating .swup-progress-icon {
   bottom: 36px;
   left: 0;
   text-align: center;
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   color: var(--second-text-color);
   font-size: 3.2rem;
   font-weight: 700;
@@ -6745,7 +6746,7 @@ html.is-animating .swup-progress-icon {
   }
 }
 .post-page-container .article-content-container .article-header {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
   position: relative;
   padding-left: 46px;
   width: 100%;
@@ -7138,7 +7139,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7187,7 +7188,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7237,7 +7238,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7286,7 +7287,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7334,7 +7335,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7436,7 +7437,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7485,7 +7486,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7535,7 +7536,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7584,7 +7585,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7632,7 +7633,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7877,7 +7878,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7926,7 +7927,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7976,7 +7977,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+    --home-banner-img: url("/blog/images/home_banner.jpg");
     --home-banner-text-color: #000;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -8025,7 +8026,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8073,7 +8074,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/algrtm-blog/images/home_banner.jpg");
+  --home-banner-img: url("/blog/images/home_banner.jpg");
   --home-banner-text-color: #000;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
