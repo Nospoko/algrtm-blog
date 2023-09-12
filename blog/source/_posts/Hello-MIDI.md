@@ -10,27 +10,13 @@ Welcome to our first blogpost about MIDI!
 
 A different way to display the image:
 
-Just to left:
+Display a Piano Roll and some audio below:
 
-<img src="/assets/Hello-MIDI/pianoroll-a.png" alt="pianoroll" style="height: 220px; display: block; float: left;">
-<div style="clear: both;"></div>
+{% algrtmImg Hello-MIDI/pianoroll-a.png pianoroll 170px %}
 
+{% algrtmAudio Hello-MIDI/pianoroll-a.mp3 %}
 
-Just to right:
-
-<img src="/assets/Hello-MIDI/pianoroll-a.png" alt="pianoroll" style="height: 220px; display: block; float: right;">
-<div style="clear: both;"></div>
-
-
-Just in center:
-
-<img src="/assets/Hello-MIDI/pianoroll-a.png" alt="Image Alt Text" style="height: 220px; display: block; margin: 0 auto;">
-<div style="clear: both;"></div>
-
-Just to left again:
-
-<img src="/assets/Hello-MIDI/pianoroll-a.png" alt="pianoroll" style="height: 220px; display: block; float: left;">
-<div style="clear: both;"></div>
+---
 
 Part of the code used to generate this:
 
@@ -73,14 +59,6 @@ class TimeGrid:
 ```
 
 
-<img src="/algrtm-blog/assets/Hello-MIDI/pianoroll-a.png" alt="pianoroll" style="height: 170px; display: block; float: left;">
-<div style="clear: both;"></div>
-<audio controls>
-  <source src="/algrtm-blog/assets/Hello-MIDI/pianoroll-a.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
 Finally, some GPT created text:
 
-While AI systems, such as machine learning models, can generate content that mimics patterns they've learned from vast amounts of data,
-**they fundamentally** lack the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It's shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be "creative" in the profoundly human sense of the word.
+While AI systems, such as machine learning models, can generate content that mimics patterns they've learned from vast amounts of data, **they fundamentally lack** the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It's shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be _creative_ in the profoundly human sense of the word.
