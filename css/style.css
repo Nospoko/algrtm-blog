@@ -779,7 +779,7 @@ body {
   font-family: Satoshi-Variable, Noto Sans SC, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
   font-weight: 450;
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.55;
 }
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
@@ -790,14 +790,14 @@ body::-webkit-scrollbar {
   html,
   body {
     font-size: 15.36px;
-    line-height: 1.584;
+    line-height: 1.488;
   }
 }
 @media (max-width: 640px) {
   html,
   body {
     font-size: 14.4px;
-    line-height: 1.485;
+    line-height: 1.395;
   }
 }
 ::selection {
@@ -935,7 +935,7 @@ button {
   padding: 5px 5px 5px 10px;
 }
 .markdown-body p {
-  line-height: 1.65;
+  line-height: 1.55;
   color: var(--default-text-color);
   font-weight: 400;
   margin-bottom: 1rem;
@@ -1022,7 +1022,7 @@ button {
 .markdown-body .h6 {
   font-family: 'Helvetica', 'Noto Sans SC', sans-serif, sans-serif;
   color: var(--second-text-color);
-  line-height: 1.65;
+  line-height: 1.55;
   margin-bottom: 1rem !important;
 }
 @media (max-width: 768px) {
@@ -1038,7 +1038,7 @@ button {
   .markdown-body .h4,
   .markdown-body .h5,
   .markdown-body .h6 {
-    line-height: 1.584;
+    line-height: 1.488;
   }
 }
 .markdown-body h1,
@@ -1108,7 +1108,7 @@ button {
 .markdown-body .h6 {
   font-size: 1.2rem;
   font-weight: 600;
-  line-height: 1.65;
+  line-height: 1.55;
   margin-top: 2rem;
 }
 @media (max-width: 768px) {
@@ -3787,8 +3787,8 @@ html.is-animating .swup-progress-icon {
   }
 }
 .side-tools-container .slow-spin {
-  -webkit-animation: fa-spin 12s infinite linear;
-  animation: fa-spin 12s infinite linear;
+  -webkit-animation: fa-spin 25s infinite linear;
+  animation: fa-spin 25s infinite linear;
 }
 .side-tools-container .right-bottom-tools {
   width: 42px;

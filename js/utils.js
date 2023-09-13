@@ -13,7 +13,7 @@ export function initUtils() {
     pjaxProgressBar_dom: document.querySelector(".pjax-progress-bar"),
     pjaxProgressIcon_dom: document.querySelector(".swup-progress-icon"),
     backToTopButton_dom: document.querySelector(".tool-scroll-to-top"),
-    toolsList: document.querySelector(".hidden-tools-list"),
+    // toolsList: document.querySelector(".hidden-tools-list"),
     toggleButton: document.querySelector(".toggle-tools-list"),
 
     innerHeight: window.innerHeight,
@@ -89,7 +89,7 @@ export function initUtils() {
         this.updateTOCScroll();
         this.updateNavbarShrink();
         this.updateHomeBannerBlur();
-        this.updateAutoHideTools();
+        // this.updateAutoHideTools();
         this.updateAPlayerAutoHide();
       });
     },
@@ -584,7 +584,7 @@ export function initUtils() {
   Global.utils.registerWindowScroll();
 
   // toggle show tools list
-  Global.utils.toggleToolsList();
+  // Global.utils.toggleToolsList();
 
   // global font adjust
   Global.utils.globalFontSizeAdjust();
