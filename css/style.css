@@ -2488,7 +2488,7 @@ pre .deletion {
   box-sizing: border-box;
   transition-property: color, background, box-shadow, border-color, transform, padding-left, height;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0s, 0s;
-  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.3s, 0.2s, 0.2s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.3s, 0.8s, 0.5s;
   transition-timing-function: ease, ease, ease, ease, ease-out, linear, ease;
 }
 .page-container .main-content-container .main-content-header.hide {
@@ -3472,7 +3472,7 @@ html.is-animating .swup-progress-icon {
   align-items: center;
   transition-property: color, background, box-shadow, border-color, transform;
   transition-delay: 0s, 0s, 0s, 0s, 0s;
-  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.8s;
   transition-timing-function: ease, ease, ease, ease, linear;
 }
 .navbar-shrink .navbar-container .navbar-content .left {
@@ -3537,7 +3537,7 @@ html.is-animating .swup-progress-icon {
 }
 .navbar-container .navbar-content .right .desktop .navbar-list .navbar-item a .fa-chevron-down {
   transform: rotate(0deg);
-  transition: transform 0.3s ease;
+  transition: transform 0.8s ease;
 }
 .navbar-container .navbar-content .right .desktop .navbar-list .navbar-item:hover a .fa-chevron-down {
   transform: rotate(180deg);
@@ -3558,7 +3558,7 @@ html.is-animating .swup-progress-icon {
   background: var(--primary-color);
   transition-property: color, background, box-shadow, border-color, transform, bottom;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
-  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.8s, 0.8s;
   transition-timing-function: ease, ease, ease, ease, linear, linear;
 }
 .navbar-shrink .navbar-container .navbar-content .right .desktop .navbar-list .navbar-item:hover a::after,
@@ -3717,7 +3717,7 @@ html.is-animating .swup-progress-icon {
   opacity: 0;
   transition-property: color, background, box-shadow, border-color, transform, opacity;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0.1s;
-  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.38s, 0.38s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.8s, 0.8s;
   transition-timing-function: ease, ease, ease, ease, ease, ease;
 }
 .navbar-drawer-show .navbar-container .navbar-drawer {
@@ -3735,7 +3735,7 @@ html.is-animating .swup-progress-icon {
   opacity: 0;
   transition-property: color, background, box-shadow, border-color, transform, opacity;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
-  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.38s, 0.38s;
+  transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.8s, 0.8s;
   transition-timing-function: ease, ease, ease, ease, ease, ease;
 }
 .navbar-drawer-show .navbar-container .window-mask {
