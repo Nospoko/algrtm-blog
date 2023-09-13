@@ -50,7 +50,7 @@ global:
     # English fonts
     english: 
       enable: True
-      family: Roboto
+      family: Helvetica
       url:  # https://fonts.googleapis.com/css2?family=Lato&display=swap  # Font URL to CSS file
   # Content max width
   content_max_width: 820px
@@ -256,7 +256,7 @@ articles:
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
-    style: mac # mac | simple
+    style: simple # mac | simple
     font: # Custom font
       enable: false # Whether to enable
       family: # Font family
