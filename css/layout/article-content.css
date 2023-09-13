@@ -335,7 +335,7 @@
 }
 .post-page-container .article-content-container .article-title .article-title-regular {
   font-size: 3.2rem;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0px 0 0px 0;
   line-height: 1.4;
   color: var(--second-text-color);
@@ -633,7 +633,7 @@
   white-space: nowrap;
   opacity: 0;
   position: sticky;
-  top: 108px;
+  top: 80px;
   border-radius: 0px;
   width: 0;
   height: auto;

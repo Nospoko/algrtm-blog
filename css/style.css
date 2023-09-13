@@ -2452,7 +2452,7 @@ pre .deletion {
   }
 }
 .page-container .main-content-container {
-  padding-top: 40px;
+  padding-top: 0px;
   position: relative;
 }
 .navbar-shrink .page-container .main-content-container {
@@ -2470,20 +2470,20 @@ pre .deletion {
 }
 @media (max-width: 768px) {
   .page-container .main-content-container {
-    padding-top: 63px;
+    padding-top: 37.800000000000004px;
   }
 }
 @media (max-width: 640px) {
   .page-container .main-content-container {
-    padding-top: 56px;
+    padding-top: 33.6px;
   }
 }
 .page-container .main-content-container .main-content-header {
-  position: fixed;
+  position: static;
   top: 0;
   right: 0;
   width: 100%;
-  height: 70px;
+  height: 42px;
   z-index: 1005;
   box-sizing: border-box;
   transition-property: color, background, box-shadow, border-color, transform, padding-left, height;
@@ -2509,13 +2509,13 @@ pre .deletion {
 }
 @media (max-width: 768px) {
   .page-container .main-content-container .main-content-header {
-    height: 63px;
+    height: 37.800000000000004px;
     padding-left: 0 !important;
   }
 }
 @media (max-width: 640px) {
   .page-container .main-content-container .main-content-header {
-    height: 56px;
+    height: 33.6px;
   }
 }
 .page-container .main-content-container .main-content-body {
@@ -2523,7 +2523,7 @@ pre .deletion {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 38px 0;
+  padding: 13px;
 }
 @media (max-width: 768px) {
   .page-container .main-content-container .main-content-body {
@@ -2565,7 +2565,7 @@ pre .deletion {
 }
 .page-container .post-tools {
   position: fixed;
-  top: 108px;
+  top: 80px;
   right: 38px;
   transition-property: color, background, box-shadow, border-color, top;
   transition-delay: 0s, 0s, 0s, 0s, 0s;
@@ -2587,7 +2587,7 @@ pre .deletion {
 }
 @media (max-width: 768px) {
   .page-container .post-tools {
-    top: 101px;
+    top: 75.80000000000001px;
     right: 10px;
     transform: scale(0.82);
     transform-origin: right top;
@@ -2596,7 +2596,7 @@ pre .deletion {
 @media (max-width: 640px) {
   .page-container .post-tools {
     display: none;
-    top: 94px;
+    top: 71.6px;
     right: 5px;
     transform: scale(0.72);
   }
@@ -3433,7 +3433,8 @@ html.is-animating .swup-progress-icon {
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 10px;
+  justify-content: left;
   background: linear-gradient(120deg, rgba(249,160,26,0.208) 0%, rgba(28,57,74,0.208) 100%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -3710,7 +3711,7 @@ html.is-animating .swup-progress-icon {
   transform: translateY(-6px) rotate(-45deg);
 }
 .navbar-container .navbar-drawer {
-  padding: 70px 0 20px 0;
+  padding: 42px 0 20px 0;
   transform: scaleY(0);
   transform-origin: top;
   z-index: 1002;
@@ -6694,7 +6695,7 @@ html.is-animating .swup-progress-icon {
 }
 .post-page-container .article-content-container .article-title .article-title-regular {
   font-size: 3.2rem;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0px 0 0px 0;
   line-height: 1.4;
   color: var(--second-text-color);
@@ -7039,7 +7040,7 @@ html.is-animating .swup-progress-icon {
   white-space: nowrap;
   opacity: 0;
   position: sticky;
-  top: 108px;
+  top: 80px;
   border-radius: 0px;
   width: 0;
   height: auto;

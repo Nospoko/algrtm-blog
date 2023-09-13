@@ -6,11 +6,11 @@ export const navbarShrink = {
 
   init() {
     this.navbarHeight = this.navbarDom.getBoundingClientRect().height;
-    this.navbarShrink();
+    // this.navbarShrink();
     this.togglenavbarDrawerShow();
-    window.addEventListener("scroll", () => {
-      this.navbarShrink();
-    });
+    // window.addEventListener("scroll", () => {
+    //   this.navbarShrink();
+    // });
   },
 
   navbarShrink() {
