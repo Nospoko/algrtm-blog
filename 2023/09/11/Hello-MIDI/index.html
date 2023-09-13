@@ -27,6 +27,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://algrtm.com/blog/assets/Hello-MIDI/banner-1.png">
 <meta property="og:image" content="https://algrtm.com/blog/assets/Hello-MIDI/pianoroll-a.png">
+<meta property="og:image" content="https://algrtm.com/blog/assets/Hello-MIDI/banner-2.png">
 <meta property="article:published_time" content="2023-09-11T00:00:00.000Z">
 <meta property="article:author" content="Algorithmic Productions">
 <meta name="twitter:card" content="summary">
@@ -256,7 +257,16 @@
 
 <p>Finally, some GPT created text:</p>
 <p>While AI systems, such as machine learning models, can generate content that mimics patterns they’ve learned from vast amounts of data, <strong>they fundamentally lack</strong> the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It’s shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be <em>creative</em> in the profoundly human sense of the word.</p>
-<div class="highlight-container" data-rel="python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">r = requests.get(<span class="string">&#x27;https://api.github.com/user&#x27;</span>, auth=(<span class="string">&#x27;user&#x27;</span>, <span class="string">&#x27;pass&#x27;</span>))</span><br><span class="line">r.status_code</span><br><span class="line"><span class="comment"># 200</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="A-new-header-with-a-nice-image"><a href="#A-new-header-with-a-nice-image" class="headerlink" title="A new header with a nice image"></a>A new header with a nice image</h2><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/blog/assets/Hello-MIDI/banner-2.png"
+                      alt="pianoroll" style="width: calc(100% + 20px); display: block; overflow: visible; float: center; margin-left: -10px; margin-right: -10px"
+                ><div style="clear: both;"></div>
+
+<p>In the maestro datasets we have the information about composer name and the piece title - we should make effort to display it here.</p>
+<p>The approach I think should work for this, is to track additional field for every record with a dumped source information:</p>
+<div class="highlight-container" data-rel="py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">r = requests.get(<span class="string">&#x27;https://api.github.com/user&#x27;</span>, auth=(<span class="string">&#x27;user&#x27;</span>, <span class="string">&#x27;pass&#x27;</span>))</span><br><span class="line">r.status_code</span><br><span class="line"><span class="comment"># 200</span></span><br></pre></td></tr></table></figure></div>
 
         </div>
 
@@ -278,7 +288,7 @@
     <div class="post-toc">
         <div class="toc-title">On this page</div>
         <div class="page-title">Hello MIDI</div>
-        
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#A-new-header-with-a-nice-image"><span class="nav-text">A new header with a nice image</span></a></li></ol>
 
     </div>
 </div>
