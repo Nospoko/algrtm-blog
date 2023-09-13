@@ -158,7 +158,7 @@ redefine-tablet()
 .markdown-body img {
   box-sizing: border-box;
   border-radius: $usr-img-border-radius;
-  max-width: 100%;
+  max-width: 110%;
   cursor: zoom-in;
   display: block;
   margin: 1rem auto 1rem;
