@@ -916,7 +916,7 @@ button {
   clear: both;
 }
 .markdown-body {
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, sans-serif;
   font-size: 16px;
 }
 .markdown-body blockquote {
@@ -1020,7 +1020,7 @@ button {
 .markdown-body .h4,
 .markdown-body .h5,
 .markdown-body .h6 {
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, sans-serif;
   color: var(--second-text-color);
   line-height: 1.65;
   margin-bottom: 1rem !important;
@@ -1579,7 +1579,6 @@ pre code {
   padding-bottom: 5px;
   overflow: auto;
   margin: 0 !important;
-  border-top: 1px solid var(--shadow-color-1);
 }
 .highlight:hover::-webkit-scrollbar-thumb {
   border: 3px solid rgba(183,183,183,0.3);
@@ -1750,7 +1749,7 @@ pre .deletion {
   line-height: 1.8;
   opacity: 0;
   outline: 0;
-  padding: 6px 15px;
+  padding: 2px 15px;
   position: absolute;
   vertical-align: middle;
   white-space: nowrap;
@@ -1777,7 +1776,7 @@ pre .deletion {
   line-height: 1.8;
   opacity: 0;
   outline: 0;
-  padding: 6px 15px;
+  padding: 2px 15px;
   position: absolute;
   vertical-align: middle;
   white-space: nowrap;
@@ -1797,60 +1796,46 @@ pre .deletion {
   top: 0;
 }
 .highlight-container[data-rel] {
-  background: var(--third-background-color);
+  background: var(--highlight-background);
   border-radius: 18px;
-  box-shadow: var(--redefine-box-shadow-flat);
-  padding-top: 40px;
+  padding-top: 24px;
+  padding-left: 5px;
   margin-top: 10px;
   margin-bottom: 1.2rem;
   position: relative;
+  box-shadow: var(--redefine-box-shadow-flat);
 }
 .highlight-container[data-rel] figcaption {
   font-weight: bold;
   font-size: 16px;
   position: absolute;
-  top: 12px;
+  top: 16px;
   left: 50%;
   transform: translateX(-50%);
 }
 .highlight-container[data-rel] figcaption a {
   margin-left: 10px;
 }
-.highlight-container[data-rel]::before {
-  position: absolute;
-  content: attr(data-rel);
-  line-height: 38px;
-  border-radius: 50%;
-  box-shadow: none;
-  height: 12px;
-  left: 12px;
-  position: absolute;
-  width: auto;
-  margin-left: 80px;
-  top: 0;
-  color: var(--default-text-color);
-  font-weight: bold;
-  font-size: 16px;
-}
 .highlight-container[data-rel] .folded figure {
   height: 0 !important;
   width: 0 !important;
   overflow: hidden !important;
 }
-.highlight-container[data-rel]::after {
-  content: ' ';
+.highlight-container[data-rel]::before {
   position: absolute;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #fc625d;
-  width: 12px;
+  content: attr(data-rel);
+  line-height: 22px;
+  border-radius: 18px;
+  box-shadow: none;
   height: 12px;
-  top: 0;
-  left: 20px;
-  margin-top: 13px;
-  -webkit-box-shadow: 20px 0px #fdbc40, 40px 0px #35cd4b;
-  box-shadow: 20px 0px #fdbc40, 40px 0px #35cd4b;
-  z-index: 3;
+  left: 4px;
+  position: absolute;
+  width: auto;
+  margin-left: 10px;
+  top: 2px;
+  color: var(--default-text-color);
+  font-weight: thin;
+  font-size: 12px;
 }
 :root {
   --background-color: #fff;
@@ -3035,7 +3020,7 @@ html.is-animating .transition-fade {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
@@ -5887,7 +5872,7 @@ html.is-animating .swup-progress-icon {
   }
 }
 .article-copyright-info-container {
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -6245,7 +6230,7 @@ html.is-animating .swup-progress-icon {
   font-size: 1.4rem;
   line-height: 1.5;
   color: var(--second-text-color);
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   margin: 0;
 }
 @media (max-width: 768px) {
@@ -6711,7 +6696,7 @@ html.is-animating .swup-progress-icon {
   margin: 0px 0 30px 0;
   line-height: 1.4;
   color: var(--second-text-color);
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
 }
 .post-page-container .article-content-container .article-title .article-title-cover {
   display: flex;
@@ -6722,7 +6707,7 @@ html.is-animating .swup-progress-icon {
   bottom: 36px;
   left: 0;
   text-align: center;
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   color: var(--second-text-color);
   font-size: 3.2rem;
   font-weight: 700;
@@ -6746,7 +6731,7 @@ html.is-animating .swup-progress-icon {
   }
 }
 .post-page-container .article-content-container .article-header {
-  font-family: 'Roboto', 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Helvetica', 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
   position: relative;
   padding-left: 46px;
   width: 100%;
