@@ -259,16 +259,16 @@
   position: relative;
 }
 .navbar-shrink .page-container .main-content-container {
-  padding-top: 50.4px;
+  padding-top: 0px;
 }
 @media (max-width: 768px) {
   .navbar-shrink .page-container .main-content-container {
-    padding-top: 45.36px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 640px) {
   .navbar-shrink .page-container .main-content-container {
-    padding-top: 40.32px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -294,16 +294,16 @@
   transform: translateY(-105%);
 }
 .navbar-shrink .page-container .main-content-container .main-content-header {
-  height: 50.4px;
+  height: 0px;
 }
 @media (max-width: 768px) {
   .navbar-shrink .page-container .main-content-container .main-content-header {
-    height: 45.36px;
+    height: 0px;
   }
 }
 @media (max-width: 640px) {
   .navbar-shrink .page-container .main-content-container .main-content-header {
-    height: 40.32px;
+    height: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -364,16 +364,16 @@
   right: 38px;
 }
 .navbar-shrink .page-container .post-tools {
-  top: 88.4px;
+  top: 38px;
 }
 @media (max-width: 768px) {
   .navbar-shrink .page-container .post-tools {
-    top: 83.36px;
+    top: 38px;
   }
 }
 @media (max-width: 640px) {
   .navbar-shrink .page-container .post-tools {
-    top: 78.32px;
+    top: 38px;
   }
 }
 @media (max-width: 768px) {

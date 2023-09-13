@@ -2456,16 +2456,16 @@ pre .deletion {
   position: relative;
 }
 .navbar-shrink .page-container .main-content-container {
-  padding-top: 50.4px;
+  padding-top: 0px;
 }
 @media (max-width: 768px) {
   .navbar-shrink .page-container .main-content-container {
-    padding-top: 45.36px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 640px) {
   .navbar-shrink .page-container .main-content-container {
-    padding-top: 40.32px;
+    padding-top: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -2495,16 +2495,16 @@ pre .deletion {
   transform: translateY(-105%);
 }
 .navbar-shrink .page-container .main-content-container .main-content-header {
-  height: 50.4px;
+  height: 0px;
 }
 @media (max-width: 768px) {
   .navbar-shrink .page-container .main-content-container .main-content-header {
-    height: 45.36px;
+    height: 0px;
   }
 }
 @media (max-width: 640px) {
   .navbar-shrink .page-container .main-content-container .main-content-header {
-    height: 40.32px;
+    height: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -2573,16 +2573,16 @@ pre .deletion {
   transition-timing-function: ease, ease, ease, ease, ease;
 }
 .navbar-shrink .page-container .post-tools {
-  top: 88.4px;
+  top: 38px;
 }
 @media (max-width: 768px) {
   .navbar-shrink .page-container .post-tools {
-    top: 83.36px;
+    top: 38px;
   }
 }
 @media (max-width: 640px) {
   .navbar-shrink .page-container .post-tools {
-    top: 78.32px;
+    top: 38px;
   }
 }
 @media (max-width: 768px) {
@@ -3476,8 +3476,9 @@ html.is-animating .swup-progress-icon {
   transition-timing-function: ease, ease, ease, ease, linear;
 }
 .navbar-shrink .navbar-container .navbar-content .left {
-  transform: scale(0.72);
-  transform-origin: left;
+  transform: scale(0.12);
+  transform-origin: center;
+  transition: transform 0.8s;
 }
 .navbar-container .navbar-content .left .logo-title {
   font-size: 2rem;
@@ -3562,7 +3563,7 @@ html.is-animating .swup-progress-icon {
 }
 .navbar-shrink .navbar-container .navbar-content .right .desktop .navbar-list .navbar-item:hover a::after,
 .navbar-shrink .navbar-container .navbar-content .right .desktop .navbar-list .navbar-item .active::after {
-  bottom: -8.2px;
+  bottom: 17px;
 }
 .navbar-container .navbar-content .right .desktop .navbar-list .navbar-item.search {
   font-size: 1.5rem;
