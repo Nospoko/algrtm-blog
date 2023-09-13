@@ -169,9 +169,9 @@ navbar:
     transparency: 35 #percent (10-99)
   # Navbar links
   links:
-    Home: 
-      path: / 
-      icon: fa-regular fa-music # can be empty
+    # Home: 
+    #   path: / 
+    #   icon: fa-regular fa-music # can be empty
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
