@@ -66,7 +66,14 @@ Finally, some GPT created text:
 
 While AI systems, such as machine learning models, can generate content that mimics patterns they've learned from vast amounts of data, **they fundamentally lack** the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It's shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be _creative_ in the profoundly human sense of the word.
 
-```python
+## A new header with a nice image
+{% algrtmImgBanner Hello-MIDI/banner-2.png pianoroll %}
+
+In the maestro datasets we have the information about composer name and the piece title - we should make effort to display it here.
+
+The approach I think should work for this, is to track additional field for every record with a dumped source information:
+
+```py
 r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
 r.status_code
 # 200
