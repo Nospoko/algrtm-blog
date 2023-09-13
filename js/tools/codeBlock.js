@@ -10,9 +10,7 @@ Global.initCopyCode = () => {
     element.wrap(container);
     container.classList.add('highlight-container');
     container.insertAdjacentHTML('beforeend', '<div class="copy-button"><i class="fa-regular fa-copy"></i></div>');
-    container.insertAdjacentHTML('beforeend', '<div class="fold-button"><i class="fa-solid fa-chevron-down"></i></div>');
     const copyButton = container.querySelector('.copy-button');
-    const foldButton = container.querySelector('.fold-button');
     copyButton.addEventListener('click', () => {
       const codeLines = [...container.querySelectorAll('.code .line')];
       const code = codeLines.map(line => line.innerText).join('\n');
@@ -28,10 +26,6 @@ Global.initCopyCode = () => {
         copyButton.querySelector('i').className = 'fa-regular fa-copy';
       }, 1000);
     });
-    foldButton.addEventListener('click', () => {
-      container.classList.toggle('folded');
-      foldButton.querySelector('i').className = container.classList.contains('folded') ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down';
-    } );
 
   });
 }
