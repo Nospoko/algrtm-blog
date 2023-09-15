@@ -18,12 +18,12 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="Welcome to our first blogpost about MIDI! A different way to display the image:   Display a Piano Roll and some audio below: While AI systems, such as machine learning models, can generate content tha">
+        <meta name="description" content="This blog is under construction. Come back later, please. 🔥">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello MIDI">
 <meta property="og:url" content="https://algrtm.com/blog/2023/09/11/Hello-MIDI/index.html">
 <meta property="og:site_name" content="ALGRTM">
-<meta property="og:description" content="Welcome to our first blogpost about MIDI! A different way to display the image:   Display a Piano Roll and some audio below: While AI systems, such as machine learning models, can generate content tha">
+<meta property="og:description" content="This blog is under construction. Come back later, please. 🔥">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://algrtm.com/blog/assets/Hello-MIDI/banner-1.png">
 <meta property="og:image" content="https://algrtm.com/blog/assets/Hello-MIDI/pianoroll-a.png">
@@ -228,15 +228,17 @@
 
 
         <div class="article-content markdown-body">
-            <p>Welcome to our first blogpost about MIDI!</p>
-<p>A different way to display the image:</p>
+            <p>This blog is under construction. Come back later, please. 🔥</p>
+<span id="more"></span>
+<h2 id="Blog-writing-tips-and-tricks">Blog writing tips and tricks</h2>
 <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/blog/assets/Hello-MIDI/banner-1.png"
                       alt="pianoroll" style="width: calc(100% + 20px); display: block; overflow: visible; float: center; margin-left: -10px; margin-right: -10px"
                 ><div style="clear: both;"></div>
-
+<p>Here is a footnote reference,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> and another.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<p>A different way to display the image:</p>
 <p>Display a Piano Roll and some audio below:</p>
 <p>While AI systems, such as machine learning models, can generate content that mimics patterns they’ve learned from vast amounts of data, <strong>they fundamentally lack</strong> the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It’s shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be <em>creative</em> in the profoundly human sense of the word.</p>
 <img  
@@ -249,24 +251,37 @@
     <source src="/blog/assets/Hello-MIDI/pianoroll-a.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
-
 <hr>
 <p>Part of the code used to generate this:</p>
 <div class="highlight-container" data-rel="python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Callable</span></span><br><span class="line">                           </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np         </span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd        </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TimeGrid</span>:                                                      </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">                                                    </span></span><br><span class="line"><span class="params">        self,                                                        </span></span><br><span class="line"><span class="params">        nonlinearity: <span class="type">Callable</span>,                                      </span></span><br><span class="line"><span class="params">        n_measures: <span class="built_in">int</span> = <span class="number">4</span>,                                         </span></span><br><span class="line"><span class="params">        ticks_per_measure: <span class="built_in">int</span> = <span class="number">16</span>,                                 </span></span><br><span class="line"><span class="params">        measure_duration_s: <span class="built_in">float</span> = <span class="number">1</span>,                               </span></span><br><span class="line"><span class="params">    </span>):                                                               </span><br><span class="line">        self.n_measures = n_measures                                 </span><br><span class="line">        self.ticks_per_measure = ticks_per_measure                   </span><br><span class="line">                                                                     </span><br><span class="line">        <span class="comment"># One measure is a sine period -&gt; 2.pi                       </span></span><br><span class="line">        stop = n_measures * <span class="number">2</span> * np.pi                                </span><br><span class="line">        steps = n_measures * ticks_per_measure                       </span><br><span class="line">        self.linear_grid = np.linspace(                              </span><br><span class="line">            start=<span class="number">0</span>,                                                 </span><br><span class="line">            stop=stop,                                               </span><br><span class="line">            num=steps,                                               </span><br><span class="line">            endpoint=<span class="literal">False</span>,                                          </span><br><span class="line">        )                                                            </span><br><span class="line">                                                                     </span><br><span class="line">        <span class="comment"># This adjustment could be externalized                      </span></span><br><span class="line">        nonlinear_adjustment = nonlinearity(self.linear_grid)        </span><br><span class="line">        self.nonlinear_grid = self.linear_grid + nonlinear_adjustment</span><br><span class="line">                                                                     </span><br><span class="line">        <span class="comment"># Normalize the nonlinear grid based on the measure duration.</span></span><br><span class="line">        self.nonlinear_grid /= <span class="number">2</span> * np.pi / measure_duration_s        </span><br><span class="line">                                                                     </span><br><span class="line">        self.df = pd.DataFrame(&#123;<span class="string">&quot;start&quot;</span>: self.nonlinear_grid&#125;)       </span><br></pre></td></tr></table></figure></div>
-
-
-<p>Finally, some GPT created text:</p>
+<p>Finally, some GPT created text:<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
 <p>While AI systems, such as machine learning models, can generate content that mimics patterns they’ve learned from vast amounts of data, <strong>they fundamentally lack</strong> the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It’s shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be <em>creative</em> in the profoundly human sense of the word.</p>
-<h2 id="A-new-header-with-a-nice-image"><a href="#A-new-header-with-a-nice-image" class="headerlink" title="A new header with a nice image"></a>A new header with a nice image</h2><img  
+<h2 id="A-new-header-with-a-nice-image">A new header with a nice image</h2>
+<img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/blog/assets/Hello-MIDI/banner-2.png"
                       alt="pianoroll" style="width: calc(100% + 20px); display: block; overflow: visible; float: center; margin-left: -10px; margin-right: -10px"
                 ><div style="clear: both;"></div>
-
 <p>In the maestro datasets we have the information about composer name and the piece title - we should make effort to display it here.</p>
 <p>The approach I think should work for this, is to track additional field for every record with a dumped source information:</p>
 <div class="highlight-container" data-rel="py"><figure class="iseeu highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">r = requests.get(<span class="string">&#x27;https://api.github.com/user&#x27;</span>, auth=(<span class="string">&#x27;user&#x27;</span>, <span class="string">&#x27;pass&#x27;</span>))</span><br><span class="line">r.status_code</span><br><span class="line"><span class="comment"># 200</span></span><br></pre></td></tr></table></figure></div>
+<p>Here is an inline note.<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Here is the footnote. Footnotes support emojis 📡 Don’t use <code>^X</code> for footnote code. Use named references. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Here’s one with multiple blocks.</p>
+<p>Subsequent paragraphs are indented to show that they<br>
+belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Another footnote <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>Inlines notes are easier to write, since you don’t have to pick an identifier and move down to type the note. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 
         </div>
 
@@ -288,7 +303,7 @@
     <div class="post-toc">
         <div class="toc-title">On this page</div>
         <div class="page-title">Hello MIDI</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#A-new-header-with-a-nice-image"><span class="nav-text">A new header with a nice image</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Blog-writing-tips-and-tricks"><span class="nav-text">Blog writing tips and tricks</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#A-new-header-with-a-nice-image"><span class="nav-text">A new header with a nice image</span></a></li></ol>
 
     </div>
 </div>
