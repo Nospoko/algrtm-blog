@@ -7,6 +7,10 @@ author: tomek
 
 Welcome to our first blogpost about MIDI!
 
+<!-- more -->
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
 A different way to display the image:
 
 {% algrtmImgBanner Hello-MIDI/banner-1.png pianoroll %}
@@ -78,3 +82,12 @@ r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
 r.status_code
 # 200
 ```
+
+Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
