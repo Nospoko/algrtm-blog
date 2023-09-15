@@ -107,3 +107,4 @@ deploy:
 markdown:
   plugins:
     - markdown-it-footnote
+    - markdown-it-emoji
