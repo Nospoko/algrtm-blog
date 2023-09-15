@@ -5,11 +5,17 @@ tags:
 author: tomek
 ---
 
-Welcome to our first blogpost about MIDI!
+This blog is under construction. Come back later, please. :fire:
 
-A different way to display the image:
+<!-- more -->
+
+## Blog writing tips and tricks
 
 {% algrtmImgBanner Hello-MIDI/banner-1.png pianoroll %}
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+A different way to display the image:
 
 Display a Piano Roll and some audio below:
 
@@ -62,7 +68,7 @@ class TimeGrid:
 ```
 
 
-Finally, some GPT created text:
+Finally, some GPT created text:[^ref_gpt_a]
 
 While AI systems, such as machine learning models, can generate content that mimics patterns they've learned from vast amounts of data, **they fundamentally lack** the intrinsic human qualities that drive creativity. True creativity often emerges from a complex interplay of emotions, lived experiences, cultural contexts, and deeply personal insights. It's shaped by our struggles, joys, dreams, and even our subconscious minds. These aspects of the human experience are intricately woven into the tapestry of our creative expressions. In contrast, AI operates devoid of emotion, consciousness, or a sense of self. It lacks intuition and the ability to derive meaning or feel inspiration. An AI can replicate styles, combine patterns, or optimize based on predefined criteria, but it does so without understanding, intent, or genuine innovation. Thus, while AI can produce or assist in artistic endeavors, it will never be _creative_ in the profoundly human sense of the word.
 
@@ -78,3 +84,14 @@ r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
 r.status_code
 # 200
 ```
+
+Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
+
+[^1]: Here is the footnote. Footnotes support emojis :satellite: Don't use `^X` for footnote code. Use named references.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
+[^ref_gpt_a]: Another footnote
