@@ -32,6 +32,7 @@ If you were to take a sequence of notes and predict their velocities by an untra
 
 </div>
 
+
 Sounds pretty bad, doesn't it?
 
 Our Transformer-based model aims to decode 
@@ -39,9 +40,7 @@ this nuanced aspect of musical expression, unraveling the hidden patterns
 within quantized MIDI data.
 
 
-
 ### Model Overview
-{% algrtmImgBanner MIDI-velocity-transformer/transformer.png transformer%}
     
 *The Transformer model* is ideal for this task because it excels at capturing complex dependencies in sequential data, making it well-suited for predicting MIDI velocities accurately.
 
@@ -132,7 +131,7 @@ Ludwig van Beethoven:  *Sonata No. 8 in C Minor, Op.13*
 </div>
 
 ### Model Architecture
-
+{% algrtmImgBanner MIDI-velocity-transformer/transformer.png transformer%}
 A transformer built as described in [Attention is all you need](https://arxiv.org/abs/1706.03762) paper was used.
 The important hyperparameters:
 - Number of layers in encoder and decoder: **6**
