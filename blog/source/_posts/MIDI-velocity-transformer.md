@@ -72,20 +72,36 @@ velocity:
 ```
 ### Quantization Samples
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-    <div>
-         
+    
   **Original** 
+        
+  **Quantized**
+
+</div>
+
+Franz Schubert / Franz Liszt: *Song Transcriptions: Aufenthalt, Gretchen am Spinnrade, Standchen von Shakespeare, Der Erlkonig*
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
   {% algrtmImg MIDI-velocity-transformer/samples/5002-real.png pianoroll 170px %}
   {% algrtmAudio MIDI-velocity-transformer/samples/5002-real.mp3 %}
         
-  </div>
-  <div>
-        
-  **Quantized**
   {% algrtmImg MIDI-velocity-transformer/samples/5002-quantized.png pianoroll 170px %}
   {% algrtmAudio MIDI-velocity-transformer/samples/5002-quantized.mp3 %}
 
-  </div>
+</div>
+
+
+
+Ludwig van Beethoven:  *Sonata No. 8 in C Minor, Op.13*
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg MIDI-velocity-transformer/samples/9127-real.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/9127-real.mp3 %}
+        
+  {% algrtmImg MIDI-velocity-transformer/samples/9127-quantized.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/9127-quantized.mp3 %}
+
 </div>
 
 ### Model Architecture
