@@ -261,4 +261,6 @@ What is perhabs the most impressive outcome of this experiment, is that a transf
 ### Contact and Feedback
 As we continue to refine and expand the capabilities of our model, we invite further exploration, collaboration, and feedback from the musical community and AI enthusiasts. Together, we can push the boundaries of what AI can achieve in the art of music, unlocking new creative possibilities and enriching the musical landscape.
 
-Contact: ?????
+**Contact:**
+author: wmatejuk14@gmail.com
+??? organization: ????
