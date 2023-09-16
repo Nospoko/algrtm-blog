@@ -10,6 +10,7 @@ which profoundly influences the emotional quality of music.
 Our Transformer-based model aims to decode 
 this nuanced aspect of musical expression, unraveling the hidden patterns 
 within quantized MIDI data.
+
 {% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
 
 ### Model Overview
@@ -110,8 +111,6 @@ Click below to plot new random sample.
 #### Pieces with predicted velocity
 You can choose which piece you would like to listen to and compare it's original version with the one predicted by our
 model.
-
-### Accuracy and Use Cases
 
 ### Conclusion
 
