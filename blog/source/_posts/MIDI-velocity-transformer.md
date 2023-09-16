@@ -235,7 +235,17 @@ Wolfgang Amadeus Mozart, *Sonata in B-flat Major, K*
 </div>
 
 ### Conclusion
+As you could see and hear, our model got really good with finding well-sounding velocities for each presented piece.
+(Surely far better than an untrained model!)
+The importance of MIDI velocity in shaping the emotional quality of music cannot be overstated, and our model's ability to accurately predict these velocities has far-reaching implications.
+
+Through meticulous data preprocessing, utilizing quantization techniques, and leveraging the power of the Transformer architecture, our model has demonstrated its proficiency in capturing complex dependencies within music sequences. The training process, conducted on a substantial dataset of classical piano music, yielded impressive results with a minimal average distance between predictions and real values.
+
 
 ### Acknowledgments and References
 
+
 ### Contact and Feedback
+As we continue to refine and expand the capabilities of our model, we invite further exploration, collaboration, and feedback from the musical community and AI enthusiasts. Together, we can push the boundaries of what AI can achieve in the art of music, unlocking new creative possibilities and enriching the musical landscape.
+
+Contact: ?????
