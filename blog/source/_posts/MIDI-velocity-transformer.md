@@ -132,12 +132,14 @@ Ludwig van Beethoven:  *Sonata No. 8 in C Minor, Op.13*
 
 ### Model Architecture
 {% algrtmImgBanner MIDI-velocity-transformer/transformer.png transformer%}
-A transformer built as described in [Attention is all you need](https://arxiv.org/abs/1706.03762) paper was used.
+A transformer built as described in [Attention is all you need](https://arxiv.org/abs/1706.03762) paper was used for this task.
 The important hyperparameters:
-- Number of layers in encoder and decoder: **6**
-- Nuber of heads in attention layers: **8**
-- Dimension of encoder and decoder outputs: **512**
-- Dimension of a hidden layer of position-wise fast-forward network from each layer of encoder and decoder: **2048**
+| hyperparameter | number |
+| -------------- | :-----: |
+| Number of layers in encoder and decoder | **6** |
+| Nuber of heads in attention layers | **8** |
+| Dimension of encoder and decoder outputs | **512** |
+| Dimension of a hidden layer of position-wise fast-forward network from each layer of encoder and decoder | **2048** |
 
 
 ### Training and Evaluation
