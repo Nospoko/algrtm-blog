@@ -14,6 +14,7 @@ within quantized MIDI data.
 {% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
 
 ### Model Overview
+{% algrtmImgBanner MIDI-velocity-transformer/transformer.png transformer%}
     
 The Transformer model is ideal for this task because it excels at capturing complex dependencies in sequential data, making it well-suited for predicting MIDI velocities accurately.
 
@@ -69,8 +70,23 @@ velocity:
   - 74.0
   - 128.0
 ```
-#### Quantization Samples
+### Quantization Samples
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+    <div>
+         
+  **Original** 
+  {% algrtmImg MIDI-velocity-transformer/samples/5002-real.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/5002-real.mp3 %}
+        
+  </div>
+  <div>
+        
+  **Quantized**
+  {% algrtmImg MIDI-velocity-transformer/samples/5002-quantized.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/5002-quantized.mp3 %}
 
+  </div>
+</div>
 
 ### Model Architecture
 
@@ -105,12 +121,11 @@ warmup_steps = 3000.
 The model reaches **2.57 loss** and **5.13 average distance** between prediction and real value.
 In contrast - untrained model has a **4.9 loss** and **30.7 average distance**
 ### Demonstration
-#### Random sample
-Click below to plot new random sample.
+#### Some samples
 
 #### Pieces with predicted velocity
-You can choose which piece you would like to listen to and compare it's original version with the one predicted by our
-model.
+Here are whole pieces from our dataset wirh original and predicted velocities
+
 
 ### Conclusion
 
