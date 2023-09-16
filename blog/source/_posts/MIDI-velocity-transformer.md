@@ -4,21 +4,48 @@ date: 2023-09-11
 tags:
 author: wmatejuk
 ---
+
+### Why is it important?
+
+{% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
+
 MIDI velocity is a crucial element in music dynamics, determining the force with which a note is played, 
 which profoundly influences the emotional quality of music. 
+
+If you were to take a sequence of notes and predict their velocities by an untrained model, this is what you wold have ended up with:
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+    
+  **Original** 
+        
+  **Predicted by untrained model**
+
+</div>
+
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg MIDI-velocity-transformer/samples/9115-real.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/9115-real.mp3 %}
+        
+  {% algrtmImg MIDI-velocity-transformer/samples/9115-pred-untrained.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/9115-pred-untrained.mp3 %}
+
+</div>
+
+Sounds pretty bad, doesn't it?
 
 Our Transformer-based model aims to decode 
 this nuanced aspect of musical expression, unraveling the hidden patterns 
 within quantized MIDI data.
 
-{% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
+
 
 ### Model Overview
 {% algrtmImgBanner MIDI-velocity-transformer/transformer.png transformer%}
     
-The Transformer model is ideal for this task because it excels at capturing complex dependencies in sequential data, making it well-suited for predicting MIDI velocities accurately.
+*The Transformer model* is ideal for this task because it excels at capturing complex dependencies in sequential data, making it well-suited for predicting MIDI velocities accurately.
 
-This model's suitability arises from its self-attention mechanism,
+This model's suitability arises from its *self-attention* mechanism,
 which enables it to weigh the importance of different parts of the input sequence,
 regardless of their temporal order.
 In the context of MIDI data, this means that the Transformer can effectively learn
@@ -137,11 +164,74 @@ warmup_steps = 3000.
 The model reaches **2.57 loss** and **5.13 average distance** between prediction and real value.
 In contrast - untrained model has a **4.9 loss** and **30.7 average distance**
 ### Demonstration
-#### Some samples
+#### Samples
+<div style="-webkit-column-count: 3; -moz-column-count: 3; column-count: 3;">
+    
+  **Original** 
+
+  **Predicted**
+
+</div>
+
+Johann Sebastian Bach, *Prelude and Fugue in D-sharp Minor*
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg MIDI-velocity-transformer/samples/7177-real.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/7177-real.mp3 %}
+        
+  {% algrtmImg MIDI-velocity-transformer/samples/7177-predicted.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/7177-predicted.mp3 %}
+
+</div>
+
+Frédéric Chopin, *Etude Op. 10 No. 12*
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg MIDI-velocity-transformer/samples/5171-real.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/5171-real.mp3 %}
+        
+  {% algrtmImg MIDI-velocity-transformer/samples/5171-predicted.png pianoroll 170px %}
+  {% algrtmAudio MIDI-velocity-transformer/samples/5171-predicted.mp3 %}
+
+</div>
 
 #### Pieces with predicted velocity
 Here are whole pieces from our dataset wirh original and predicted velocities
 
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+    
+  **Original** 
+        
+
+  **Predicted**
+
+</div>
+
+Johann Sebastian Bach, *Prelude and Fugue in A-flat Major, WTC I*
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I-pred.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I.mp3" %}
+        
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I-pred.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I-pred.mp3" %}
+
+</div>
+
+Wolfgang Amadeus Mozart, *Sonata in B-flat Major, K*
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.mp3" %}
+        
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.mp3" %}
+
+</div>
 
 ### Conclusion
 
