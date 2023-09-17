@@ -1,7 +1,7 @@
 ---
-title: 'Exploring VQ-VAEs for 1D Data: ECG and MIDI Encoding'
+title: 'Exploring VQ-VAEs'
 date: 2023-09-17
-tags: 'MIDI', 'ECG', 'Autoencoder', 'VQ-VAE'
+tags:
 author: Samuel
 ---
 
@@ -61,10 +61,23 @@ Having explored the nuances of VQ-VAEs, it's time to delve into their practical 
 ### Results: ECG Data
 Our experimentation with ECG data yielded promising results in terms of both compression and reconstruction quality. The model was able to capture critical features like R-peaks and QRS complexes, essential for cardiac diagnosis.
 
-**TODO: results for ecg vqvaes**
+{% algrtmImg VQ-VAEs/ecg-vqvae-reconstruction.png ecg %}
 ### Results: MIDI Data
 MIDI data poses a unique challenge: it's a complex representation where even tiny nuances can significantly influence how we perceive the music. As such, it's difficult to quantify the quality of reconstructions. However, we can still evaluate the model's performance by comparing the original and reconstructed data.
 
 It's worth noting that the pitch information was not encoded in our model; it's a part of the visualization to provide a more comprehensive understanding of the reconstructed data.
 
-**TODO: MIDI charts and audio results**
+**Fragment of Robert Schumann Sonata No. 2 in G Minor, Op. 22:**
+The visualizations and audio were generated using [fortepyan](https://github.com/Nospoko/fortepyan).
+
+
+*Original:*
+
+{% algrtmImg VQ-VAEs/original_pianoroll_schumann.png original 220px %}
+{% algrtmAudio VQ-VAEs/shumann-original.mp3 %}
+
+
+*Reconstruction:*
+
+{% algrtmImg VQ-VAEs/reconstructed_pianoroll_schumann.png reconstructed 220px %}
+{% algrtmAudio VQ-VAEs/shumann-reconstructed.mp3 %}
