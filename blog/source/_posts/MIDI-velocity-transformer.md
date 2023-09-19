@@ -42,8 +42,7 @@ If you were to assign random velocities to a sequence of notes, this is what you
 Sounds pretty bad, doesn't it?
 
 Our Transformer-based model aims to decode 
-this nuanced aspect of musical expression, unraveling the hidden patterns 
-within quantized MIDI data.
+this nuanced aspect of musical expression, unraveling the hidden patterns within piano performance.
 
 
 ### Model Overview
@@ -51,8 +50,7 @@ within quantized MIDI data.
 *The Transformer model* is ideal for this task because it excels at capturing complex dependencies in sequential data, making it well-suited for predicting MIDI velocities accurately.
 
 This model's suitability arises from its *self-attention* mechanism,
-which enables it to weigh the importance of different parts of the input sequence,
-regardless of their temporal order.
+which enables it to weigh the importance of different parts of the input sequence.
 In the context of MIDI data, this means that the Transformer can effectively learn
 and leverage complex relationships between musical notes, their timing,
 and how these factors influence the resulting velocity.
@@ -63,7 +61,16 @@ Its accurate encoding of quantized MIDI data and precise velocity predictions
 mark a significant stride toward the realm of emotionally resonant AI music generation.
 ### Data Preprocessing
 #### MIDI data
-MIDI data describes notes by 5 features:
+To describe piano performance accurately we use MIDI file format, which describes individual notes played by a pianist as an object presented here:
+```mermaid
+classDiagram
+    class Note{
+      pitch: int
+      velocity: int
+      start: float
+      end: float
+    }
+```
    1. Pitch - Represented as a number between 0 and 127 (or 21 to 108 for piano keys, reflecting the standard 88-key keyboard).
    2. Start - Indicates the moment a key is pressed, measured in seconds.
    3. End - Marks the second when the key is released.
