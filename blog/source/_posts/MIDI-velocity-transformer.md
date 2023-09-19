@@ -71,19 +71,44 @@ classDiagram
       end: float
     }
 ```
-   1. Pitch - Represented as a number between 0 and 127 (or 21 to 108 for piano keys, reflecting the standard 88-key keyboard).
-   2. Start - Indicates the moment a key is pressed, measured in seconds.
-   3. End - Marks the second when the key is released.
-   4. Duration - calculated as the time elapsed between the key's press and release.
-   5. Velocity - ranging from 0 to 128, indicating the intensity of the key press.
+Pitch - Represented as a number between 0 and 127 (or 21 to 108 for piano keys, reflecting the standard 88-key keyboard).
+
+Start - Indicates the moment a key is pressed, measured in seconds.
+
+End - Marks the second when the key is released.
+
+Duration - calculated as the time elapsed between the key's press and release.
+
+Velocity - ranging from 0 to 128, indicating the intensity of the key press.
+
+Each musical piece can be described with a dataframe of notes.
+```
+     duration         end  pitch       start  velocity
+0    2.451823    3.449219     69    0.997396        40
+1    4.502604    5.505208     64    1.002604        34
+2    4.792969    5.828125     58    1.035156        20
+3    0.071615    1.753906     76    1.682292        43
+4    0.061198    1.809896     78    1.748698        55
+..        ...         ...     ..         ...        ..
+```
 
 #### Quantization
-The way more suitable for quantization was what we engineered from this data.
-We used 4 values to describe notes:
-1. Pitch - same as above.
-2. Dstart - time elapsed after start of previous note.
-3. Duration - same as above,
-4. Velocity - same as above.
+The way more suitable for quantization was to calculate dstart - distance betweet start time of previous and current note.
+```py
+notes["next_start"] = notes.start.shift(-1)
+notes["dstart"] = notes.next_start - notes.start
+```
+
+```
+     pitch    dstart  duration  velocity
+0       69  0.005208  2.451823        40
+1       64  0.032552  4.502604        34
+2       58  0.647135  4.792969        20
+3       76  0.066406  0.071615        43
+4       78  0.074219  0.061198        55
+..     ...       ...       ...       ...
+
+```
 
 This way we can achieve a more general data quantization, without having to consider
 variations in the song's tempo or using bins that cover the entire duration of 
@@ -144,8 +169,7 @@ Ludwig van Beethoven:  *Sonata No. 8 in C Minor, Op.13*
 </div>
 
 ### Model Architecture
-{% algrtmImgBanner MIDI-velocity-transformer/transformer.png transformer%}
-A transformer built as described in [Attention is all you need](https://arxiv.org/abs/1706.03762) paper was used for this task.
+
 The important hyperparameters:
 | hyperparameter | number |
 | -------------- | :-----: |
@@ -167,18 +191,6 @@ The dataset used for training contained tuples consisting of tokenized MIDI sequ
 #### Hardware and schedule
    Training on (very old) Nvidia GeForce GTX 960M with 4096 MiB of memory for 5 epochs (2723 steps) took only 7,5 hours.
    Each step took ~6 seconds.
-#### Optimizer
-Optimizer and learning rate were used as described in
-[Attention is all you need](https://arxiv.org/abs/1706.03762) paper:
-- Adam optimizer with *β1 = 0.9, β2 = 0.98* and *ϵ = 10−9*.
-- The learning rate varied over the course of training, according to the formula:
-*lrate = d_model^(-0.5) \* min(step_num^(−0.5), step_num \* warmup_steps^(−1.5))*
-
-This corresponds to increasing the learning rate linearly for the first warmup_steps training steps,
-and decreasing it thereafter proportionally to the inverse square root of the step number. We used
-warmup_steps = 3000. 
-#### Loss function
-Loss is calculated with LabelSmoothing function described in [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567).
 
 #### Results
 {% algrtmImgBanner MIDI-velocity-transformer/banner-2.jpg pianoroll %}
