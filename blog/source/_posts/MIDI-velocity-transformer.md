@@ -5,6 +5,9 @@ tags:
 author: wmatejuk
 ---
 ### Introduction
+
+{% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
+
 In the world of music, the piano stands as a beacon of artistic expression, capable of evoking a vast range of emotions and captivating audiences with its exquisite melodies. The pianist, seated before this majestic instrument, becomes a conduit for the composer's intentions, imbuing each note with a depth of feeling that transcends mere sound. It is in this realm of pianistic artistry that the quest for perfection unfolds—a quest that often centers around the mastery of dynamic expression.
 
 Dynamic expression in piano performance is a multifaceted concept that extends far beyond the realm of simply playing notes at varying volumes. It encompasses the delicate interplay of timing, touch, and nuance, allowing a performer to breathe life into the music. Whether it's the gentle caress of a soft passage or the thunderous roar of a climactic crescendo, the ability to model dynamic expression is at the core of what makes a piano performance truly captivating.
@@ -13,7 +16,7 @@ Join us on our first step towards understanding this comlex algorithm that drive
 
 ### Why is velocity important?
 
-{% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
+
 
 Velocity is a crucial element in music dynamics, determining the force with which a note is played, 
 which profoundly influences the emotional quality of music. 
@@ -48,12 +51,6 @@ this nuanced aspect of musical expression, unraveling the hidden patterns within
 ### Model Overview
     
 *The Transformer model* is ideal for this task because it excels at capturing complex dependencies in sequential data, making it well-suited for predicting MIDI velocities accurately.
-
-This model's suitability arises from its *self-attention* mechanism,
-which enables it to weigh the importance of different parts of the input sequence.
-In the context of MIDI data, this means that the Transformer can effectively learn
-and leverage complex relationships between musical notes, their timing,
-and how these factors influence the resulting velocity.
 
 Strong prediction results signify the model's proficiency in extracting vital
 features and comprehending intricate relationships. 
@@ -93,7 +90,7 @@ Each musical piece can be described with a dataframe of notes.
 ```
 
 #### Quantization
-The way more suitable for quantization was to calculate dstart - distance betweet start time of previous and current note.
+More suitable approach for quantization was to calculate dstart - distance betweet start time of previous and current note.
 ```py
 notes["next_start"] = notes.start.shift(-1)
 notes["dstart"] = notes.next_start - notes.start
@@ -170,7 +167,7 @@ Ludwig van Beethoven:  *Sonata No. 8 in C Minor, Op.13*
 
 ### Model Architecture
 
-The important hyperparameters:
+Important hyperparameters:
 | hyperparameter | number |
 | -------------- | :-----: |
 | Number of layers in encoder and decoder | **6** |
@@ -286,4 +283,5 @@ What is perhabs the most impressive outcome of this experiment, is that a transf
 ### Contact and Feedback
 As we continue to refine and expand the capabilities of our model, we invite further exploration, collaboration, and feedback from the musical community and AI enthusiasts. Together, we can push the boundaries of what AI can achieve in the art of music, unlocking new creative possibilities and enriching the musical landscape.
 
-Contact: ?????
+Contact:
+  author: wmatejuk14@gmail.com
