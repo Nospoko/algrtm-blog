@@ -19,16 +19,6 @@ In this blog post, we'll delve into my recent research efforts centered on using
 #### Importance of 1D Data
 1D data, especially in the realms of ECG and MIDI, carry crucial information. For instance, ECG data holds vital clues to a person's heart health, while MIDI sequences encode the soul of a musical piece. These data types are typically dense, capturing complex time-series information in a single dimension. As such, they are difficult to compress and store efficiently.
 
-#### Existing Solutions and Their Limitations
-Several methods are available for encoding 1D data, each with its own merits and drawbacks:
-
-- **Autoencoders:** These neural network-based techniques are generally effective for many types of data but can sometimes sacrifice details for the sake of compression.
-
-- **Fourier Transforms:** A mathematical staple for time-series data, yet not always suited for capturing non-linear or transient aspects of the data.
-
-- **Smoothing/Averaging:** Simple but potentially lossy, as they can blur important details in the data.
-
-While these methods have their uses, they also have limitations that one needs to consider depending on the application at hand. **Vector Quantized Variational Autoencoders** (VQ-VAEs) offer another avenue for exploration in the context of 1D data encoding, adding to the existing repertoire of techniques.
 
 
 ## VQ-VAEs: A Brief Overview
