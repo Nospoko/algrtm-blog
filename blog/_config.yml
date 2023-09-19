@@ -105,6 +105,8 @@ deploy:
   type: ''
 
 markdown:
+  render:
+    breaks: false
   plugins:
     - markdown-it-footnote
     - markdown-it-emoji
