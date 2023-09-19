@@ -114,6 +114,8 @@ Our experimentation with ECG data yielded promising results in terms of both com
 
 {% algrtmImg VQ-VAEs/ecg-vqvae-reconstruction.png ecg 300px %}
 
+## Conclusion and Next Steps
+In summary, we've seen that VQ-VAEs can effectively compress and reconstruct ECG data while preserving vital clinical features. This is a promising result, and we're excited to explore the possibilities of VQ-VAEs further. Our next step is to apply VQ-VAEs to different types of data. Specifically, we're curious to see how well they'll perform on MIDI music data. 
 
 [^VQ-VAE]: [Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937)
 [^VAE]: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
