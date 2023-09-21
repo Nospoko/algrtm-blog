@@ -8,11 +8,11 @@ author: wmatejuk
 
 {% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
 
-In the world of music, the piano stands as a beacon of artistic expression, capable of evoking a vast range of emotions and captivating audiences with its exquisite melodies. The pianist, seated before this majestic instrument, becomes a conduit for the composer's intentions, imbuing each note with a depth of feeling that transcends mere sound. It is in this realm of pianistic artistry that the quest for perfection unfolds—a quest that often centers around the mastery of dynamic expression.
+The piano is a versatile and suprisingly complex instrument. It is capable of evoking a vast range of emotions and captivating audiences with its melodies. The pianist, seated before this majestic instrument, becomes a conduit for the composer's intentions, imbuing each note with a depth of feeling that transcends mere sound. The same composition can be played in infinite number of ways varying form artist to artist, his mood and expression choice. It is in this realm of pianistic artistry that the quest for perfection unfolds—a quest that often centers around the mastery of dynamic expression.
 
-Dynamic expression in piano performance is a multifaceted concept that extends far beyond the realm of simply playing notes at varying volumes. It encompasses the delicate interplay of timing, touch, and nuance, allowing a performer to breathe life into the music. Whether it's the gentle caress of a soft passage or the thunderous roar of a climactic crescendo, the ability to model dynamic expression is at the core of what makes a piano performance truly captivating.
+Dynamic expression in piano performance is more than simply playing notes at varying volumes. It encompasses the delicate interplay of timing, touch, and nuance, allowing a performer to breathe life into the music. Whether it's the gentle caress of a soft passage or the thunderous roar of a climactic crescendo, the ability to model dynamic expression is at the core of what makes a piano performance truly captivating.
 
-Join us on our first step towards understanding this comlex algorithm that drives human expression, where we will try and teach an AI not how to compose - but how to play.
+Join us on our first step towards understanding this complex algorithm that drives human expression, where we will try and teach an AI not how to compose - but how to play.
 
 ### Why is velocity important?
 
@@ -90,7 +90,7 @@ Each musical piece can be described with a dataframe of notes.
 ```
 
 #### Quantization
-More suitable approach for quantization was to calculate dstart - distance betweet start time of previous and current note.
+More suitable approach for quantization was to calculate dstart - distance betweet start time of current note and the next.
 ```py
 notes["next_start"] = notes.start.shift(-1)
 notes["dstart"] = notes.next_start - notes.start
@@ -265,7 +265,7 @@ Wolfgang Amadeus Mozart, *Sonata in B-flat Major, K*
 
 ### Conclusion
 As you could see and hear, our model got really good with finding well-sounding velocities for each presented piece.
-(Surely far better than an untrained model!)
+(Surely far better than random!)
 The importance of MIDI velocity in shaping the emotional quality of music cannot be overstated, and our model's ability to accurately predict these velocities has far-reaching implications.
 
 Through meticulous data preprocessing, utilizing quantization techniques, and leveraging the power of the Transformer architecture, our model has demonstrated its proficiency in capturing complex dependencies within music sequences. The training process, conducted on a substantial dataset of classical piano music, yielded impressive results with a minimal average distance between predictions and real values.
