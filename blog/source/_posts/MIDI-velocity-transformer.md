@@ -243,7 +243,7 @@ Johann Sebastian Bach, *Prelude and Fugue in A-flat Major, WTC I*
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
 
-  {% algrtmImg "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I-pred.png" pianoroll 170px %}
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I.png" pianoroll 170px %}
   {% algrtmAudio "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I.mp3" %}
         
   {% algrtmImg "MIDI-velocity-transformer/pieces/Johann Sebastian Bach Prelude and Fugue in A-flat Major, WTC I-pred.png" pianoroll 170px %}
@@ -255,11 +255,23 @@ Wolfgang Amadeus Mozart, *Sonata in B-flat Major, K*
 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
 
-  {% algrtmImg "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.png" pianoroll 170px %}
-  {% algrtmAudio "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.mp3" %}
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K.mp3" %}
         
   {% algrtmImg "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.png" pianoroll 170px %}
   {% algrtmAudio "MIDI-velocity-transformer/pieces/Wolfgang Amadeus Mozart Sonata in B-flat Major, K-pred.mp3" %}
+
+</div>
+
+Frédéric Chopin, *Etude Op. 10 No. 12*
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
+
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Frederic-Chopin-Etude-Op-10-No-12.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Frederic-Chopin-Etude-Op-10-No-12.mp3" %}
+        
+  {% algrtmImg "MIDI-velocity-transformer/pieces/Frederic-Chopin-Etude-Op-10-No-12-pred.png" pianoroll 170px %}
+  {% algrtmAudio "MIDI-velocity-transformer/pieces/Frederic-Chopin-Etude-Op-10-No-12-pred.mp3" %}
 
 </div>
 
