@@ -85,18 +85,6 @@ r.status_code
 # 200
 ```
 
-Does it support mermaid?
-
-```mermaid
-classDiagram
-    class Note{
-      pitch: int
-      velocity: int
-      start: float
-      end: float
-    }
-```
-
 Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
 
 [^1]: Here is the footnote. Footnotes support emojis :satellite: Don't use `^X` for footnote code. Use named references.
