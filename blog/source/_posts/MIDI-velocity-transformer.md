@@ -14,8 +14,9 @@ Dynamic expression in piano performance is more than simply playing notes at var
 
 Join us on our first step towards understanding this complex algorithm that drives human expression, where we will try and teach an AI not how to compose - but how to play.
 
-### Why is velocity important?
+We do keep in mind that *“talking about music is like dancing about architecture"*, so we invite you to listen to provided samples in order to understand the results and data flow of our project.
 
+### Why is velocity important?
 
 
 Velocity is a crucial element in music dynamics, determining the force with which a note is played, 
@@ -282,7 +283,7 @@ The importance of MIDI velocity in shaping the emotional quality of music cannot
 
 Through meticulous data preprocessing, utilizing quantization techniques, and leveraging the power of the Transformer architecture, our model has demonstrated its proficiency in capturing complex dependencies within music sequences. The training process, conducted on a substantial dataset of classical piano music, yielded impressive results with a minimal average distance between predictions and real values.
 
-What is perhabs the most impressive outcome of this experiment, is that a transformer was able to learn underlying schemas behind human performances. This could indicate that there really is a very complex and possibly untranslatable algorithm behind our perception of emotion in music. 
+What is perhabs the most impressive outcome of this experiment, is that a transformer was able to learn underlying schemas behind human performances. This could indicate that there really is a very complex and possibly untranslatable algorithm behind our perception of emotion in music.
 
 
 ### References
@@ -291,6 +292,7 @@ What is perhabs the most impressive outcome of this experiment, is that a transf
 - [Austin Huang, Suraj Subramanian, Jonathan Sum, Khalid Almubarak, and Stella Biderman. Original: Sasha Rush. The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 - [Jay Almmar. The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 - [Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.](https://arxiv.org/abs/1512.00567)
+- [Oore, S., Simon, I., Dieleman, S. et al. This time with feeling: learning expressive musical performance. Neural Comput & Applic 32, 955–967 (2020).](https://doi.org/10.1007/s00521-018-3758-9)
 
 ### Contact and Feedback
 As we continue to refine and expand the capabilities of our model, we invite further exploration, collaboration, and feedback from the musical community and AI enthusiasts. Together, we can push the boundaries of what AI can achieve in the art of music, unlocking new creative possibilities and enriching the musical landscape.
