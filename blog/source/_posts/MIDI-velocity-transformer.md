@@ -178,7 +178,7 @@ Important hyperparameters:
 | Number of layers in encoder and decoder | **6** |
 | Nuber of heads in attention layers | **8** |
 | Dimension of encoder and decoder outputs | **512** |
-| Dimension of a hidden layer of position-wise fast-forward network from each layer of encoder and decoder | **2048** |
+| Dimension of a hidden layer of position-wise feed-forward network from each layer of encoder and decoder | **2048** |
 
 
 ### Training and Evaluation
@@ -293,9 +293,7 @@ What is perhabs the most impressive outcome of this experiment, is that a transf
 ### Contact and Feedback
 As we continue to refine and expand the capabilities of our model, we invite further exploration, collaboration, and feedback from the musical community and AI enthusiasts. Together, we can push the boundaries of what AI can achieve in the art of music, unlocking new creative possibilities and enriching the musical landscape.
 
-Contact:
-
-  author: wmatejuk14@gmail.com
+author: wmatejuk14@gmail.com
 
 [^Vaswani]: [Vaswani, Ashish & Shazeer, Noam & Parmar, Niki & Uszkoreit, Jakob & Jones, Llion & Gomez, Aidan & Kaiser, Lukasz & Polosukhin, Illia. (2017). Attention Is All You Need.](https://arxiv.org/abs/1706.03762)
 [^MIDI]: [ Frank Zalkow and Meinard Müller. Symbolic Format: MIDI - Fundamentals of music processing](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S2_MIDI.html)
