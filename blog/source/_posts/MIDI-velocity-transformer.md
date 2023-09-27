@@ -8,17 +8,16 @@ author: wmatejuk
 
 {% algrtmImgBanner MIDI-velocity-transformer/banner-1.jpg pianoroll %}
 
-The piano is a versatile and suprisingly complex instrument. It is capable of evoking a vast range of emotions and captivating audiences with its melodies. The pianist, seated before this majestic instrument, becomes a conduit for the composer's intentions, imbuing each note with a depth of feeling that transcends mere sound. The same composition can be played in infinite number of ways varying form artist to artist, his mood and expression choice. It is in this realm of pianistic artistry that the quest for perfection unfolds—a quest that often centers around the mastery of dynamic expression.
+The piano is a versatile and suprisingly complex instrument. It is capable of evoking a vast range of emotions and captivating audiences with its melodies. The pianist, seated before this majestic instrument, becomes a conduit for the composer's intentions, imbuing each note with a depth of feeling that transcends mere sound. The same composition can be played in an infinite number of ways varying form artist to artist, his mood and expression choice. It is in this realm of pianistic artistry that the quest for perfection unfolds - a quest that often centers around the mastery of dynamic expression.
 
 Dynamic expression in piano performance is more than simply playing notes at varying volumes. It encompasses the delicate interplay of timing, touch, and nuance, allowing a performer to breathe life into the music. It allows a pianist to shape the music and add depth to their interpretation by creating tension, release, highlighting important phrases, passing composer's intention and his own artistic interpretation.
 
- Whether it's the gentle caress of a soft passage or the thunderous roar of a climactic crescendo, the ability to model dynamic expression is at the core of what makes a piano performance truly captivating.
+Whether it's the gentle caress of a soft passage or the thunderous roar of a climactic crescendo, the ability to model dynamic expression is at the core of what makes a piano performance truly captivating.
 Join us on our first step towards understanding this complex algorithm that drives human expression, where we will try and teach an AI not how to compose - but how to play.
 
 *"Talking about music is like dancing about architecture"*, so we invite you to listen to provided samples in order to understand the results and data flow of our project.
 
 ### Why is velocity important?
-
 
 Velocity is a crucial element in music dynamics, determining the force with which a note is played, 
 which profoundly influences the emotional quality of music. 
@@ -52,7 +51,7 @@ this nuanced aspect of musical expression, unraveling the hidden patterns within
 
 ### Model Overview
     
-*The Transformer model* is ideal for this task because it excels at capturing complex dependencies in sequential data[^aiayn], making it well-suited for predicting MIDI velocities accurately.
+*The Transformer model* is ideal for this task because it excels at capturing complex dependencies in sequential data[^Vaswani], making it well-suited for predicting MIDI velocities accurately.
 
 Strong prediction results signify the model's proficiency in extracting vital
 features and comprehending intricate relationships. 
@@ -64,7 +63,7 @@ MIDI, or Musical Instrument Digital Interface, emerged in the early 1980s as a g
 
 The [file format specifications](https://www.midi.org/specifications-old/category/smf-specifications) for MIDI are complex. Fortunately, there are various software tools for parsing, manipulating, synthesizing, and storing MIDI files. Python package PrettyMidi is able to translate MIDI messages, which can often be obscure and challenging to decipher, into a comprehensible list of note events, making the information more accessible.
 
-To describe piano, we can describe individual notes played by a pianist as an object presented here:
+To describe piano, we can describe individual notes played by a pianist as a Note object:
 ```mermaid
 classDiagram
     class Note{
@@ -74,11 +73,11 @@ classDiagram
       end: float
     }
 ```
-Pitch - Represented as a number between 0 and 127 (or 21 to 108 for piano keys, reflecting the standard 88-key keyboard).
+Pitch - represented as a number between 0 and 127 (or 21 to 108 for piano keys, reflecting the standard 88-key keyboard).
 
-Start - Indicates the moment a key is pressed, measured in seconds.
+Start - indicates the moment a key is pressed, measured in seconds.
 
-End - Marks the second when the key is released.
+End - marks the second when the key is released.
 
 Duration - calculated as the time elapsed between the key's press and release.
 
@@ -109,7 +108,7 @@ notes["dstart"] = notes.next_start - notes.start
 2       58  0.647135  4.792969        20
 3       76  0.066406  0.071615        43
 4       78  0.074219  0.061198        55
-..     ...       ...       ...       ...
+..      ..       ...       ...        ..
 
 ```
 
@@ -184,7 +183,7 @@ Important hyperparameters:
 
 ### Training and Evaluation
 #### Data
-The vocabulary for our model was generated by considering every combination of quantized information from MIDI notes. The source vocabulary consisted of 795 unique values, while the target vocabulary included 131 values, accounting for start, end, and padding tokens.
+The vocabulary for our model was generated by considering every combination of quantized information from MIDI notes. The source vocabulary consisted of 2379 unique values, while the target vocabulary included 131 values, accounting for start, end, and padding tokens.
 
 Our training dataset comprised approximately 200 hours of musical data sourced from the 
 [The Maestro Dataset](https://magenta.tensorflow.org/datasets/maestro)[^maestro] dataset, which includes 1276 pieces of classical music performed during piano competitions. Each musical piece was segmented into 128-note sequences, with a 64-note overlap between adjacent samples. These sequences were quantized, and each note was mapped to its corresponding index in the source and target vocabularies.
@@ -295,8 +294,9 @@ What is perhabs the most impressive outcome of this experiment, is that a transf
 As we continue to refine and expand the capabilities of our model, we invite further exploration, collaboration, and feedback from the musical community and AI enthusiasts. Together, we can push the boundaries of what AI can achieve in the art of music, unlocking new creative possibilities and enriching the musical landscape.
 
 Contact:
+
   author: wmatejuk14@gmail.com
 
-[^aiayn]: [Vaswani, Ashish & Shazeer, Noam & Parmar, Niki & Uszkoreit, Jakob & Jones, Llion & Gomez, Aidan & Kaiser, Lukasz & Polosukhin, Illia. (2017). Attention Is All You Need.](https://arxiv.org/abs/1706.03762)
+[^Vaswani]: [Vaswani, Ashish & Shazeer, Noam & Parmar, Niki & Uszkoreit, Jakob & Jones, Llion & Gomez, Aidan & Kaiser, Lukasz & Polosukhin, Illia. (2017). Attention Is All You Need.](https://arxiv.org/abs/1706.03762)
 [^MIDI]: [ Frank Zalkow and Meinard Müller. Symbolic Format: MIDI - Fundamentals of music processing](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S2_MIDI.html)
 [^maestro]: [The Maestro dataset](https://magenta.tensorflow.org/datasets/maestro)
