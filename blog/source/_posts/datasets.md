@@ -25,8 +25,65 @@ The pre-processing times mentioned above were calculated on a test set, with the
 `Mean: 4188.757062146893, std: 3130.797449499849, max: 16966, min: 366, median: 3264.0`
 
 ## Benchmarking Dataset Performance
+#### Creting the datasets
+**MyMaskedMidiDataset**:
+```python
+quantizer = MidiQuantizer(
+        n_dstart_bins=5,
+        n_duration_bins=4,
+        n_velocity_bins=4,
+    )
+
+my_masks = AwesomeMasks()
+encoder = QuantizedMidiEncoder(
+    quantizer=quantizer,
+    special_tokens=my_masks.vocab,
+)
+token = os.environ["HUGGINGFACE_TOKEN"]
+maestro_test = load_dataset("SneakyInsect/masked-maestro", split="test", use_auth_token=token)
+
+test_set = MyMaskedMidiDataset(
+        dataset=maestro_test,
+        encoder=encoder,
+        sequence_len=60,
+        mask_probability_min=0.1,
+        mask_probability_max=0.41,
+    )
+```
+**MidiDataset**:
+```python
+quantizer = MidiQuantizer(
+    n_dstart_bins=5,
+    n_duration_bins=4,
+    n_velocity_bins=4,
+)
+tokenizer = QuantizedMidiEncoder(
+    dstart_bin=5, 
+    duration_bin=4, 
+    velocity_bin=4,
+)
+
+masks = AwesomeMasks()
+
+token = os.environ["HUGGINGFACE_TOKEN"]
+maestro_test = load_dataset("SneakyInsect/masked-maestro-2", split="test", use_auth_token=token)
+
+test_set = MidiDataset(
+    maestro_test, 
+    quantizer, 
+    tokenizer, 
+    pitch_shift_probability=0.0,
+    time_stretch_probability=0.0,
+    masking_probability=0.15
+)
+```
+#### Benchmarking
 To understand the datasets' real-time performance, we used the following benchmarking code:
 ```python
+BATCH_SIZES = [4, 8, 16, 32, 64, 128, 256]
+
+results = []
+
 for batch_size in tqdm(BATCH_SIZES):
     loader = DataLoader(test_set, batch_size=batch_size, shuffle=True)
     
